@@ -21,7 +21,7 @@ export default function Cadastrar() {
       } else {
         localStorage.setItem(user, user)
         localStorage.setItem(password, password)
-        navigate('/home')
+        navigate('/')
       }
     }
 
