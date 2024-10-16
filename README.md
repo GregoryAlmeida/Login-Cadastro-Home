@@ -1,50 +1,12 @@
-# React + TypeScript + Vite
+# Projeto feito em React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fiz esse projeto com o objetivo de treinar minhas habilidades em páginas de login/cadastro.
 
-Currently, two official plugins are available:
+O site não conta com um banco de dados/api para fazer a checagem dos dados, todos os dados são salvos no armazenamento local do seu navegador,
+ou seja, em outro navegador não será possivel ter acesso aos dados cadastrados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Plugin usado React Router
 
-## Expanding the ESLint configuration
+O React Router é um plugin que permite o "roteamento do lado do cliente".
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+O roteamento do lado do cliente permite que seu aplicativo atualize o URL a partir de um clique no link sem fazer outra solicitação de outro documento do servidor. Em vez disso, seu aplicativo pode renderizar imediatamente alguma nova UI e fazer solicitações de dados com busca para atualizar a página com novas informações.
