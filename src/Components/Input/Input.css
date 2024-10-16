@@ -1,0 +1,31 @@
+.div-input {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input {
+  width: 50%;
+  font-size: 1rem;
+  padding: .25rem;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+  margin: auto;
+  border: 2px solid #0984e3;
+  outline: none;
+  background-color: #0984e3;
+  color: white;
+
+}
+
+input:focus {
+  width: 100%;
+  border: 2px solid #00b894;
+  background-color: #00b894;
+
+}

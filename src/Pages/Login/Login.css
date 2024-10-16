@@ -1,0 +1,23 @@
+form {
+  padding: 1rem;
+  background-color: #74b9ff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px black;
+  color: white;
+  min-width: 30rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+p {
+  padding: .50rem;
+}

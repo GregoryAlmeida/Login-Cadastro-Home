@@ -1,0 +1,10 @@
+.div-home {
+  color: white;
+  background-color: #74b9ff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.div-home p {
+  font-size: 1.5rem;
+}
